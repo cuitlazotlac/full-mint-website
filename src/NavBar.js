@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Button, Flex, Image, Link, Spacer } from "@chakra-ui/react";
-import Facebook from "./assets/social-media-icons/facebook_32x32.png";
-import Twitter from "./assets/social-media-icons/twitter_32x32.png";
+import Github from "./assets/social-media-icons/github.gif";
+import PixelArt from "./assets/social-media-icons/pixel-art.gif";
 import Email from "./assets/social-media-icons/email_32x32.png";
 
 const NavBar = ({ accounts, setAccounts }) => {
@@ -19,24 +19,46 @@ const NavBar = ({ accounts, setAccounts }) => {
   return (
     <Flex justify="space-between" align="center" padding="30px">
       <Flex justify="space-around" width="40%" padding="0px 75px">
-        <Link href="https://www.facebook.com/">
-          <Image src={Facebook} boxSize="42px" margin="0 15px" />
+        <Link
+          href="https://github.com/cuitlazotlac/full-mint-website"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image src={Github} boxSize="52px" margin="0 15px" />
         </Link>
-        <Link href="https://www.facebook.com/">
-          <Image src={Twitter} boxSize="42px" margin="0 15px" />
+        <Link href="https://heyhayssem.dev/" target="_blank" rel="noreferrer">
+          <Image src={PixelArt} boxSize="52px" margin="0 15px" />
         </Link>
-        <Link href="https://www.facebook.com/">
+        <Link
+          href="mailto:heyhayssem@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image src={Email} boxSize="42px" margin="0 15px" />
         </Link>
       </Flex>
 
       <Flex justify="space-around" align="center" width="40%" padding="30px">
-        <Box margin="0 15px">About</Box>
+        <Link
+          href="https://github.com/cuitlazotlac/full-mint-website"
+          target="_blank"
+          rel="noreferrer"
+          color="white"
+        >
+          <Box margin="0 15px">About</Box>
+        </Link>
         <Spacer />
-        <Box margin="0 15px">Mint</Box>
+        <Link
+          href="https://www.sofi.com/learn/content/what-is-nft-minting/"
+          target="_blank"
+          rel="noreferrer"
+          color="white"
+        >
+          <Box margin="0 15px">Mint</Box>
+        </Link>
         <Spacer />
-        <Box margin="0 15px">Team</Box>
-        <Spacer />
+        {/* <Box margin="0 15px">Team</Box>
+        <Spacer /> */}
 
         {isConnected ? (
           <Box margin="0 15px">Connected</Box>
