@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/full-mint-website/static/css/main.b18c48f8.css",
+    "main.js": "/full-mint-website/static/js/main.7f0567a7.js",
+    "static/media/parallax-bg.gif": "/full-mint-website/static/media/parallax-bg.a753668321d10848110d.gif",
+    "index.html": "/full-mint-website/index.html",
+    "main.b18c48f8.css.map": "/full-mint-website/static/css/main.b18c48f8.css.map",
+    "main.7f0567a7.js.map": "/full-mint-website/static/js/main.7f0567a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b18c48f8.css",
+    "static/js/main.7f0567a7.js"
+  ]
+}
